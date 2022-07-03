@@ -6,12 +6,14 @@
     <!-- <BaiTap2/> -->
     <!-- <BaiTap3/> -->
     <!-- <TrainArr/> -->
-    <BaiTap_1/>
+    <!-- <BaiTap_1/> -->
+    <BaiTap_2/>
   </div>
 </template>
 
 <script>
-import BaiTap_1 from "./components/Buoi2/BaiTap_1.vue";
+// import BaiTap_1 from "./components/Buoi2/BaiTap_1.vue";
+import BaiTap_2 from "./components/Buoi2/BaiTap_2.vue";
 // import TrainArr from './components/Buoi_group/TrainArr.vue';
 // import BaiTap3 from "./components/Buoi1/BaiTap3.vue";
 // import BaiTap2 from "./components/Buoi1/BaiTap2.vue";
@@ -21,7 +23,8 @@ import BaiTap_1 from "./components/Buoi2/BaiTap_1.vue";
 export default {
   name: 'App',
   components: {
-    BaiTap_1
+    // BaiTap_1,
+    BaiTap_2
 }
 }
 </script>
