@@ -4,12 +4,16 @@
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <!-- <BaiTap1/> -->
     <!-- <BaiTap2/> -->
-    <BaiTap3/>
+    <!-- <BaiTap3/> -->
+    <!-- <TrainArr/> -->
+    <BaiTap_1/>
   </div>
 </template>
 
 <script>
-import BaiTap3 from "./components/Buoi1/BaiTap3.vue";
+import BaiTap_1 from "./components/Buoi2/BaiTap_1.vue";
+// import TrainArr from './components/Buoi_group/TrainArr.vue';
+// import BaiTap3 from "./components/Buoi1/BaiTap3.vue";
 // import BaiTap2 from "./components/Buoi1/BaiTap2.vue";
 // import BaiTap1 from "./components/Buoi1/BaiTap1.vue";
 // import HelloWorld from './components/HelloWorld.vue'
@@ -17,9 +21,7 @@ import BaiTap3 from "./components/Buoi1/BaiTap3.vue";
 export default {
   name: 'App',
   components: {
-    //BaiTap1
-    // BaiTap2
-    BaiTap3
+    BaiTap_1
 }
 }
 </script>
