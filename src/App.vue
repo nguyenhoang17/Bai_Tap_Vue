@@ -10,12 +10,14 @@
     <!-- <BaiTap_2/> -->
     <!-- <Examp_1/> -->
     <!-- <ContainerContent/> -->
-  <TodoContainer/>
+  <!-- <TodoContainer/> -->
+  <B3_Exercise/>
   </div>
 </template>
 
 <script>
-import TodoContainer from './components/Buoi3_BT/TodoContainer.vue';
+// import TodoContainer from './components/Buoi3_BT/TodoContainer.vue';
+import B3_Exercise from './components/Buoi3_BT/B3_Exercise.vue';
 // import ContainerContent from './components/Buoi3/containerContent.vue';
 // import Examp_1 from './components/Buoi_gr2/Examp_1.vue';
 // import BaiTap_1 from "./components/Buoi2/BaiTap_1.vue";
@@ -29,7 +31,9 @@ import TodoContainer from './components/Buoi3_BT/TodoContainer.vue';
 export default {
   name: 'App',
   components: {
-    TodoContainer
+    // TodoContainer,
+    Exercise,
+    B3_Exercise
 }
 }
 </script>
