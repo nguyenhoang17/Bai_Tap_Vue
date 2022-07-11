@@ -7,13 +7,19 @@
     <!-- <BaiTap3/> -->
     <!-- <TrainArr/> -->
     <!-- <BaiTap_1/> -->
-    <BaiTap_2/>
+    <!-- <BaiTap_2/> -->
+    <!-- <Examp_1/> -->
+    <!-- <ContainerContent/> -->
+  <TodoContainer/>
   </div>
 </template>
 
 <script>
+import TodoContainer from './components/Buoi3_BT/TodoContainer.vue';
+// import ContainerContent from './components/Buoi3/containerContent.vue';
+// import Examp_1 from './components/Buoi_gr2/Examp_1.vue';
 // import BaiTap_1 from "./components/Buoi2/BaiTap_1.vue";
-import BaiTap_2 from "./components/Buoi2/BaiTap_2.vue";
+// import BaiTap_2 from "./components/Buoi2/BaiTap_2.vue";
 // import TrainArr from './components/Buoi_group/TrainArr.vue';
 // import BaiTap3 from "./components/Buoi1/BaiTap3.vue";
 // import BaiTap2 from "./components/Buoi1/BaiTap2.vue";
@@ -23,8 +29,7 @@ import BaiTap_2 from "./components/Buoi2/BaiTap_2.vue";
 export default {
   name: 'App',
   components: {
-    // BaiTap_1,
-    BaiTap_2
+    TodoContainer
 }
 }
 </script>
