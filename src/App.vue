@@ -11,13 +11,21 @@
     <!-- <Examp_1/> -->
     <!-- <ContainerContent/> -->
   <!-- <TodoContainer/> -->
-  <B3_Exercise/>
+  <!-- <B3_Exercise/> -->
+  <!-- <NewsDetailPage/> -->
+  <!-- <ProductPage/> -->
+  <NewsDetailPage/>
   </div>
 </template>
 
 <script>
+import NewsDetailPage from './components/Baitap/Buoi4/bai2/NewsDetailPage.vue';
+// import ProductPage from './components/Baitap/Buoi4/Bai1/ProductPage.vue';
+// import BaseLayout from './components/Baitap/Buoi4/Bai1/BaseLayout.vue';
+// import NewsDetailPage from './components/Baitap/Buoi4/bai2/NewsDetailPage.vue';
+// import Examp_1 from './components/Buoi_gr2/Examp_1.vue';
 // import TodoContainer from './components/Buoi3_BT/TodoContainer.vue';
-import B3_Exercise from './components/Buoi3_BT/B3_Exercise.vue';
+// import B3_Exercise from './components/Buoi3_BT/B3_Exercise.vue';
 // import ContainerContent from './components/Buoi3/containerContent.vue';
 // import Examp_1 from './components/Buoi_gr2/Examp_1.vue';
 // import BaiTap_1 from "./components/Buoi2/BaiTap_1.vue";
@@ -31,9 +39,7 @@ import B3_Exercise from './components/Buoi3_BT/B3_Exercise.vue';
 export default {
   name: 'App',
   components: {
-    // TodoContainer,
-    Exercise,
-    B3_Exercise
+    NewsDetailPage
 }
 }
 </script>
@@ -45,6 +51,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 </style>
