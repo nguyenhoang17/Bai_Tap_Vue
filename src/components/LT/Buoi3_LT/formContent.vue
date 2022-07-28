@@ -19,7 +19,7 @@
         },
         methods:{
             handelClick(){
-                let dataLogin
+                // let dataLogin
                 
             }
         }

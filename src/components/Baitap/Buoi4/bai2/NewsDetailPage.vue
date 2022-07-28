@@ -21,7 +21,7 @@
             <div class="breadcrumb">
                 <el-breadcrumb separator="/">
                     <el-breadcrumb-item >Trang chủ</el-breadcrumb-item>
-                    <el-breadcrumb-item><a href="/">Điện thoại</a></el-breadcrumb-item>
+                    <el-breadcrumb-item><a href="/">Tủ lạnh</a></el-breadcrumb-item>
                 </el-breadcrumb>
             </div>
             <div class="content">

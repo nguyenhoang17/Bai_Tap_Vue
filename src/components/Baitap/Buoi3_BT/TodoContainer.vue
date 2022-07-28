@@ -28,7 +28,6 @@ export default {
                 isActive: 0,
                 work: this.input
             }
-
             this.data = item
             this.input = ''
         }
@@ -37,7 +36,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-    * {
+* {
     margin: 0;
     padding: 0;
 }
