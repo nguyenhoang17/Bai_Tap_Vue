@@ -4,9 +4,20 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </nav> -->
+    <!-- <router-view/> -->
+    <!-- <DraggableView/> -->
     <router-view/>
   </div>
 </template>
+<script>
+
+// import DraggableView from "./components/LT/Buoi4/DraggableView.vue";
+export default {
+    name: "App",
+};
+
+  
+</script>
 
 <style lang="scss">
 #app {

@@ -101,7 +101,22 @@ const routes = [
         component: () => import( '../views/PostView.vue'),
       }
     ]
-  }
+  },
+  {
+    path: '/learn-vuex',
+    name: 'learn-vuex',
+    component: () => import( '../components/LT/Buoi_7/LearnVuex.vue')
+  },
+  {
+    path: '/learn-vuex2',
+    name: 'learn-vuex2',
+    component: () => import( '../components/LT/Buoi_7/LearnVuex2.vue')
+  },
+  {
+    path: '/bai7-1',
+    name: 'bai7-1',
+    component: () => import( '../views/Bai7/Bai1View.vue')
+  },
 ]
 
 const router = new VueRouter({
