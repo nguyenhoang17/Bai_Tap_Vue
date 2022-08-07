@@ -112,10 +112,15 @@ const routes = [
     name: 'learn-vuex2',
     component: () => import( '../components/LT/Buoi_7/LearnVuex2.vue')
   },
+  // {
+  //   path: '/bai7-1',
+  //   name: 'bai7-1',
+  //   component: () => import( '../views/Bai7/Bai1View.vue')
+  // },
   {
-    path: '/bai7-1',
-    name: 'bai7-1',
-    component: () => import( '../views/Bai7/Bai1View.vue')
+    path: '/bai7-2',
+    name: 'bai7-2',
+    component: () => import( '../views/Bai7/Bai2View.vue')
   },
 ]
 
