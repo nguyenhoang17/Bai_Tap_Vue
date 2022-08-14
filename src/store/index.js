@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import orders from './modules/orders'
+import products from './modules/products'
 
 Vue.use(Vuex)
 
@@ -147,6 +149,10 @@ const store = new Vuex.Store({
   //       state.totalMoney += state.carts[i].quantityCart*state.carts[i].price
   //     }
   // },
+  },
+  modules:{
+    orders,
+    products
   }
 })
 

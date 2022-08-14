@@ -80,11 +80,11 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
   },
-  {
-    path: '/products',
-    name: 'products',
-    component: () => import( '../views/ProductsView.vue')
-  },
+  // {
+  //   path: '/products',
+  //   name: 'products',
+  //   component: () => import( '../views/ProductsView.vue')
+  // },
   {
     path: '/users/:userId',
     name: 'users',
@@ -121,6 +121,31 @@ const routes = [
     path: '/bai7-2',
     name: 'bai7-2',
     component: () => import( '../views/Bai7/Bai2View.vue')
+  },
+  {
+    path: '/bai8',
+    name: 'bai8',
+    component: () => import( '../views/Buoi8/BaseLayout.vue')
+  },
+  {
+    path: '/bai8-product',
+    name: 'bai8-product',
+    component: () => import( '../views/Buoi8/ProductView.vue')
+  },
+  {
+    path: '/bai8-order',
+    name: 'bai8-order',
+    component: () => import( '../views/Buoi8/OrderView.vue')
+  },
+  {
+    path: '/lodash',
+    name: 'lodash',
+    component: () => import( '../views/lodashDemo.vue')
+  },
+  {
+    path: '/products',
+    name: 'Product',
+    component: () => import( '../views/CallApi.vue')
   },
 ]
 
